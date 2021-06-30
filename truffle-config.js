@@ -29,6 +29,13 @@ require("dotenv").config();
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
 
 module.exports = {
+  
+  networks: {
+    development: {
+      host: "127.0.0.1",
+      port: 7545,
+      network_id: "*" //match any network id
+    },
   /**
    * Networks define how you connect to your ethereum client and let you set the
    * defaults web3 uses to send transactions. If you don't specify one truffle
