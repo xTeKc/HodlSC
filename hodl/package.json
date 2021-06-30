@@ -1,0 +1,26 @@
+{
+  "name": "aut0sc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xTeKc/aut0SC.git"
+  },
+  "author": "xTeKc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xTeKc/aut0SC/issues"
+  },
+  "homepage": "https://github.com/xTeKc/aut0SC#readme"
+}
