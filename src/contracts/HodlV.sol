@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
-import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Snapshot.sol";
-import "@openzeppelin/contracts/access/AccessControl.sol";
-import "@openzeppelin/contracts/security/Pausable.sol";
-import "@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol";
+import "node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "node_modules/@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
+import "node_modules/@openzeppelin/contracts/token/ERC20/extensions/ERC20Snapshot.sol";
+import "node_modules/@openzeppelin/contracts/access/AccessControl.sol";
+import "node_modules/@openzeppelin/contracts/security/Pausable.sol";
+import "node_modules/@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol";
 
 contract HodlV is ERC20, ERC20Burnable, ERC20Snapshot, AccessControl, Pausable, ERC20Permit {
     bytes32 public constant SNAPSHOT_ROLE = keccak256("SNAPSHOT_ROLE");
