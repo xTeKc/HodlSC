@@ -5,6 +5,7 @@
 + __Features include:__
     + Mintable Tokens
     + Burnable Tokens
-    + Pauseable
+    + Pausable
     + Snapshots
     + Permits
+
